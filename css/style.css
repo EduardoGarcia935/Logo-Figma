@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+}
+
+.figma-flex {
+  max-width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.block {
+  width: 5rem;
+  aspect-ratio: 1;
+}
+
+.red {
+  background: #f24e1e;
+  border-radius: 50% 0 0 50%;
+}
+
+.orange {
+  background: #ff7262;
+  border-radius: 0 50% 50% 0;
+}
+
+.purple {
+  background: #a259ff;
+  border-radius: 50% 0 0 50%;
+}
+
+.blue {
+  background: #1abcfe;
+  border-radius: 50%;
+}
+
+.green {
+  background: #0acf83;
+  border-radius: 50% 0 50% 50%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+//Colors
+$red: #f24e1e;
+$orange: #ff7262;
+$purple: #a259ff;
+$blue: #1abcfe;
+$green: #0acf83;
+
+//CSS Reset
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.figma-flex {
+    max-width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 5rem;
+    aspect-ratio: 1;
+}
+
+.red {
+    background: $red;
+    border-radius: 50% 0 0 50%;
+}
+
+.orange {
+    background: $orange;
+    border-radius: 0 50% 50% 0;
+}
+
+.purple {
+    background: $purple;
+    border-radius: 50% 0 0 50%;
+}
+
+.blue {
+    background: $blue;
+    border-radius: 50%;
+}
+
+.green {
+    background: $green;
+    border-radius: 50% 0 50% 50%;
+}
+
+
+  
